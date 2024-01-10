@@ -17,7 +17,12 @@ Your task as an AWS Solutions Architect is to design and implement a WordPress s
 
 # Some Considerations
 1. Proximity to DigitalBoost clients
-2. Available services in the chosing region
+2. Available services in the chosing region. Reduce Latency as much as possible (CLOUD-FRONT)
+3. Your webserver and database should be in a private subnet. it should be not be exposed to the public
+4. Bastion Host gives access to other resources that are private
+5. the content of the website will be served via the Load-Balancer
+6. Load-Balancer will be in the public subnet
+7. one will be a backup
 
 # Task
 
@@ -26,18 +31,25 @@ draw.io
 
 # Excecution
 
+Region : US East (N. Virginia) us-east-1 has the highest number of availability zones
+
 > let us focus on the cloud
 > First deal with region (High availablity). each region has at least three availability zones.
 > Second is Network - VPC
+> Bastion Host gives access to other resources that are private
 
 ![region](https://github.com/ArmstrongLiwox/Architecting-Tooling-Multi-Tech-Deployment-and-CICD-with-Virtualisation-Technology-in-AWS-Part-1-/assets/143335106/f73ef97c-b5fe-441c-ae00-93aa08220e56)
 
 ![vpc](https://github.com/ArmstrongLiwox/Architecting-Tooling-Multi-Tech-Deployment-and-CICD-with-Virtualisation-Technology-in-AWS-Part-1-/assets/143335106/7b974523-bc8d-4210-b1a5-9612509d9d4e)
 
+Your NAT gateway is always in a public subnet
 
+Your VPC must have a connection in an internet gateway
 
+difference is at the route tables level
 
-
+public subnet is connected to an internet gateway in its route table 
+private subnet is connected to a NAT gateway in its route table 
 
 
 
