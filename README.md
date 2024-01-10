@@ -23,6 +23,7 @@ Your task as an AWS Solutions Architect is to design and implement a WordPress s
 5. the content of the website will be served via the Load-Balancer
 6. Load-Balancer will be in the public subnet
 7. one will be a backup
+8. Having different subnets does not cost you extra money
 
 # Task
 
@@ -50,6 +51,26 @@ difference is at the route tables level
 
 public subnet is connected to an internet gateway in its route table 
 private subnet is connected to a NAT gateway in its route table 
+
+Having different subnets does not cost you extra money
+the seperation is for more security
+
+![az1](https://github.com/ArmstrongLiwox/Architecting-Tooling-Multi-Tech-Deployment-and-CICD-with-Virtualisation-Technology-in-AWS-Part-1-/assets/143335106/c589cb68-73b1-45f5-a842-5272ef2db022)
+
+![az2](https://github.com/ArmstrongLiwox/Architecting-Tooling-Multi-Tech-Deployment-and-CICD-with-Virtualisation-Technology-in-AWS-Part-1-/assets/143335106/ed6c72cf-a394-4ef6-b552-cacb554845fc)
+
+
+mount the EFS : Elastic file system ()
+
+NFS : network file store
+
+![draft](https://github.com/ArmstrongLiwox/Architecting-Tooling-Multi-Tech-Deployment-and-CICD-with-Virtualisation-Technology-in-AWS-Part-1-/assets/143335106/11b640f0-a042-4d81-9c91-ab87b05392c3)
+
+
+s3: media (elastic)
+ebs: os
+efs: configuration files (elastic)
+
 
 
 
