@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T19:56:53.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mNs4C99cjyzMpwoKSP4n" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T19:58:14.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="D7LNCT1bItZpzyyXUDkF" version="22.1.18" type="github">
   <diagram name="Page-1" id="n7nwlHuQZ8hJlV3V-fya">
     <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry y="160" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NwYy4THHCrTFuShZawKr-36" value="&lt;b style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot; style=&quot;border-color: var(--border-color); background-color: rgb(255, 244, 195);&quot;&gt;Availablity zone 2 : us-east-1b&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="NwYy4THHCrTFuShZawKr-2">
-          <mxGeometry x="240" y="390" width="210" height="30" as="geometry" />
+          <mxGeometry x="240" y="400" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
